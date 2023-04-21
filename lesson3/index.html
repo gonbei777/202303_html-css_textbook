@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>ページのタイトル</title>
     <meta name="description" content="ページの内容を説明する文章">
-    <link rel="stylesheet" href="CSSファイルまでのパス(path)">
+    <link rel="stylesheet" href="./style.css">
     <script src="JavaScriptファイルまでのパス">
       JavaScriptコードを記述できる
     </script>
+    <style>
+      p {
+        background-color: yellow;
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
-    <h1>はじめてのHTML</h1>
-    <p>bodyタグの中身がブラウザ上に表示されます。</p>
+    <h1 style="color:red;">はじめてのHTML</h1>
+    <p style="background-color: green;">bodyタグの中身がブラウザ上に表示されます。</p>
+    <p>ここは別の段落要素です。</p>
     <header>
       ロゴ、ナビゲーション、etc...
     </header>
