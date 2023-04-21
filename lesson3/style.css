@@ -1,4 +1,15 @@
+@charset 'utf-8';
+
+* {
+  color: #888;
+}
+
+/* 日本語のコメント */
 p {
   background-color: yellow;
   font-weight: bold;
+}
+
+p {
+  background-color: pink;
 }
