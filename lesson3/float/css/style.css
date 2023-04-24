@@ -25,3 +25,19 @@ p {
   line-height: 1.8;
   background-color: yellow;
 }
+
+div {
+  clear: both;
+}
+
+/* section::after {
+  content: '';
+  clear: both;
+  display:block;
+} */
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display:block;
+}
