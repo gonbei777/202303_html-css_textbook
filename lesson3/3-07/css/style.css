@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+/* デスクトップ用のスタイル */
+h1 {
+  background-color: yellow;
+}
+
+/* スマートフォン用のスタイル */
+@media screen and (max-width:480px) {
+  h1 {
+    background-color:cadetblue;
+    font-size: 80%;
+  }
+}
+
+/* モバイル用 */
+p {
+  font-size: 12px;
+  background-color:gold;
+  padding: 20px;
+}
+
+/* デスクトップ用 */
+@media screen and (min-width: 750px) {
+  p {
+    font-size: 20px;
+    background-color:springgreen;
+    padding: 40px;
+  }
+  div {}
+  span {}
+  .cleafix {}
+}
+
+@media screen and (min-width: 481px) and (max-width: 959px) {}
